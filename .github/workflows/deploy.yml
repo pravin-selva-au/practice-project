@@ -7,7 +7,7 @@ jobs:
       - name: Get code
         uses: actions/checkout@v4
       - name: Install NodeJS
-        uses: actions/setup-node#v3
+        uses: actions/setup-node@v3
         with:
           node-version: 18
       - name: Install dependencies
@@ -20,7 +20,7 @@ jobs:
       - name: Get code
         uses: actions/checkout@v4
       - name: Install NodeJS
-        uses: actions/setup-node#v3
+        uses: aactions/setup-node@v3
         with:
           node-version: 18
       - name: Install dependencies
@@ -33,7 +33,7 @@ jobs:
       - name: Get code
         uses: actions/checkout@v4
       - name: Install NodeJS
-        uses: actions/setup-node#v3
+        uses: actions/setup-node@v3
         with:
           node-version: 18
       - name: Install dependencies
